@@ -2,12 +2,13 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/notFound/notFound"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#66CDAA",
     "navigationBarTitleText": "方学",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

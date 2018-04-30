@@ -33,6 +33,11 @@ App({
       }
     })
   },
+  onPageNotFound: function (res) {
+    wx.redirectTo({
+      url: 'pages/notFound/notFound',
+    })
+  },
   globalData: {
     userInfo: null
   }
