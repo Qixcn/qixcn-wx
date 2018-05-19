@@ -71,7 +71,7 @@ Page({
 
     var that = this;
     wx.request({
-      url: 'http://localhost:8099/wx/login',
+      url: 'http://localhost:80/wx/wxlogin',
       data: {
         username: that.data.username,
         password: that.data.password
@@ -84,5 +84,17 @@ Page({
         console.log(res.data)
       }
     })
-  }
+  },
+  bindUsernameInput: function (e) {
+
+    this.setData({
+      username: e.detail.value
+    });
+  },
+  bindPasswordInput: function (e) {
+
+    this.setData({
+      password: e.detail.value
+    });
+  },
 })
